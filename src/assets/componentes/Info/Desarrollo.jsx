@@ -19,11 +19,7 @@ const desarrollo = () => {
       </div>
       <div className="sobreMi bg-stone-100" id="sobre-mi">
         <div className="imagen w-full max-w-80 shadow-sm ">
-          <img
-            src="./../../../../public/img/yo.jpg"
-            className="rounded-md "
-            alt="yo"
-          />
+          <img src="./img/yo.jpg" className="rounded-md " alt="yo" />
         </div>
         <div className="infoYo m-8">
           <div className="infoYo2">

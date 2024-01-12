@@ -22,7 +22,7 @@ const proyectos = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="./../../../../public/img/retrogrove.JPG"
+              src="/img/retrogrove.JPG"
               className="rounded-md"
               alt="E-commerce"
             />
@@ -44,7 +44,7 @@ const proyectos = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="./../../../../public/img/softjobs.JPG"
+              src="/img/softjobs.JPG"
               className="rounded-md"
               alt="E-commerce"
             />
@@ -64,11 +64,7 @@ const proyectos = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src="./../../../../public/img/pizza.JPG"
-              className="rounded-md"
-              alt="E-commerce"
-            />
+            <img src="/img/pizza.JPG" className="rounded-md" alt="E-commerce" />
           </a>
           <h2 className="font-medium text-2xl">Pizzeria</h2>
           <p>
