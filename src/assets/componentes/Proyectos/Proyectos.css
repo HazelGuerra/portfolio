@@ -4,6 +4,17 @@
     justify-content: space-around;
 }
 
+.proyecto p{
+    font-family: 'Chakra Petch', sans-serif;
+font-size: 18px;
+
+}
+
+.lates{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 17px;
+}
+
 @media (min-width: 768px){
     .proyectos{
         height: 800px;
@@ -18,6 +29,10 @@
         flex-direction: row;
         justify-content: space-around;
         
+    }
+
+    .proyecto img{
+        height: 250px;
     }
 
     .proyecto{

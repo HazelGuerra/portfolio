@@ -9,3 +9,7 @@
     flex-direction: row;
   }
 
+  .nav p{
+    font-family: 'Chakra Petch', sans-serif;
+font-size: 17px;
+  }

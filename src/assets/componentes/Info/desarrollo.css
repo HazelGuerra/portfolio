@@ -6,7 +6,13 @@
     
 }
 
+.descripcion{font-family: 'Chakra Petch', sans-serif;
+  font-size: 17px;}
 
+.contenido p{
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 17px;
+}
   
   .presentacion {
     position: relative;
@@ -24,6 +30,9 @@
     z-index: 1000; /* Asegura que el navbar esté sobre otros elementos */
   }
 
+  .skill p{
+    font-size: 27px;
+    font-family: 'Chakra Petch', sans-serif;}
 
   
   .presentacion::before {
@@ -122,6 +131,10 @@ font-family: 'Silkscreen', sans-serif;
     height: 900px;
   }
  
+ 
+ 
+ 
+
  
  
   .titulo h1{

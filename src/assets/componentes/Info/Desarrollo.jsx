@@ -28,20 +28,22 @@ const desarrollo = () => {
             </h1>
             <div className="contenido text-center mx-8">
               <p>
-                Hello! I'm Hazel, 21 years old. I am someone in search of new
-                challenges and work experiences. I am a nutrition student with
-                extensive knowledge (and still learning) in programming. I
-                constantly enjoy learning new technologies. I am an animal lover
-                and appreciate good music. I like working both in teams and
-                individually, and I can handle various circumstances, including
-                languages, without any problem. I am seeking the opportunity to
-                showcase my skills!
+                Hello! I'm 21 years old and currently seeking new challenges and
+                job experiences. I am a nutrition student and have also
+                completed a 2-year bootcamp, acquiring extensive knowledge in
+                programming. I enjoy constantly learning about new technologies
+                and languages. I am an animal lover and have a deep appreciation
+                for good music. I thrive in both team and individual work
+                settings, and I can easily adapt to various circumstances. My
+                native language is Spanish, and I also have a communicative
+                level of English. I am looking for a job that provides the
+                opportunity to showcase my skills and grow alongside them!
               </p>
             </div>
           </div>
           <div className="contacto  m-8 " id="links">
             <h1 className="titulos2 font-bold whitespace-pre-line text-center text-zinc-600 text-4xl">
-              Contact and Links
+              Contact Links
             </h1>
             <div className="botones">
               <button
@@ -53,7 +55,7 @@ const desarrollo = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Whatsapp
+                  <i className="fa-brands fa-whatsapp text-3xl"></i>
                 </a>
               </button>
               <button
@@ -65,7 +67,7 @@ const desarrollo = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Github
+                  <i className="fa-brands fa-github text-3xl"></i>
                 </a>
               </button>
               <button
@@ -77,14 +79,17 @@ const desarrollo = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Linkedin
+                  <i className="fa-brands fa-linkedin text-3xl"></i>
                 </a>
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div className="skills bg-zinc-300  " id="skills">
+      <div
+        className="skills bg-zinc-300 flex justify-center items-center "
+        id="skills"
+      >
         <div className="infoSkills">
           <h1 className="titulos2 font-bold whitespace-pre-line text-center text-stone-100 text-4xl">
             {" "}
@@ -92,22 +97,34 @@ const desarrollo = () => {
           </h1>
           <div className="grillaskill grid grid-cols-3 gap-3  text-center">
             <div className="skill border-solid hover:border-dotted rounded-md bg-sky-100">
-              React <i className="fa-brands fa-react"></i>
+              <p className="jolines">
+                React <i className="fa-brands fa-react"></i>
+              </p>
             </div>
             <div className="skill border-solid hover:border-dotted rounded-md bg-sky-100">
-              JavaScript <i className="fa-brands fa-js"></i>
+              <p>
+                JavaScript <i className="fa-brands fa-js"></i>
+              </p>
             </div>
             <div className="skill border-solid hover:border-dotted rounded-md bg-sky-100">
-              Html <i className="fa-brands fa-html5"></i>
+              <p>
+                Html <i className="fa-brands fa-html5"></i>
+              </p>
             </div>
             <div className="skill border-solid hover:border-dotted rounded-md bg-sky-100">
-              Css <i className="fa-brands fa-css3-alt"></i>
+              <p>
+                Css <i className="fa-brands fa-css3-alt"></i>
+              </p>
             </div>
             <div className="skill border-solid hover:border-dotted rounded-md bg-sky-100">
-              Sql <i className="fa-solid fa-database"></i>
+              <p>
+                Sql <i className="fa-solid fa-database"></i>
+              </p>
             </div>
             <div className="skill border-solid hover:border-dotted rounded-md bg-sky-100">
-              Node <i className="fa-brands fa-node"></i>
+              <p>
+                Node <i className="fa-brands fa-node"></i>
+              </p>
             </div>
           </div>
         </div>
@@ -118,22 +135,22 @@ const desarrollo = () => {
           </h1>
           <div className="grillaskill grid grid-cols-3 gap-3  text-center">
             <div className="skill border-solid hover:border-dotted rounded-md bg-sky-100">
-              Responsibility
+              <p>Responsibility</p>
             </div>
             <div className="skill border-solid hover:border-dotted rounded-md bg-sky-100">
-              Leadership
+              <p>Leadership</p>
             </div>
             <div className="skill border-solid hover:border-dotted rounded-md bg-sky-100">
-              Teamwork
+              <p>Teamwork</p>
             </div>
             <div className="skill border-solid hover:border-dotted rounded-md bg-sky-100">
-              Creativity
+              <p>Creativity</p>
             </div>
             <div className="skill border-solid hover:border-dotted rounded-md bg-sky-100">
-              Self-taught
+              <p>Self-taught</p>
             </div>
             <div className="skill border-solid hover:border-dotted rounded-md bg-sky-100">
-              Organization
+              <p>Organization</p>
             </div>
           </div>
         </div>

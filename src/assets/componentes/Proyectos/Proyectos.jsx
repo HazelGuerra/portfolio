@@ -7,7 +7,7 @@ const proyectos = () => {
         <h1 className="titulos2  font-bold whitespace-pre-line text-center text-zinc-200 text-4xl">
           Recent Projects
         </h1>
-        <div className="text-white">
+        <div className="lates text-white">
           <p>
             These are the latest projects I've been working on{" "}
             <i className="fa-regular fa-heart"></i>
