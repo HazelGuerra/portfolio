@@ -1,0 +1,31 @@
+.misProyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (min-width: 768px){
+    .proyectos{
+        height: 800px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .misProyectos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+    .proyecto{
+        width: 500px;
+        transition: transform 0.3s ease-in-out;
+    }
+    .proyecto:hover {
+        transform: scale(1.1); /* Cambia el valor según lo deseado para el efecto de sobresalir */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Opcional: Agrega una sombra para un efecto más pronunciado */
+      }
+}

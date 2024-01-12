@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    box-sizing: 0;
+}
+ 
+/* Estilos para el botón de volver arriba */
+.scroll-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: #3B3633;
+    padding: 10px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease; /* Agrega transición al color de fondo */
+  }
+  
+  /* Efecto hover */
+  .scroll-top-btn:hover {
+    background-color: #958878;
+  }

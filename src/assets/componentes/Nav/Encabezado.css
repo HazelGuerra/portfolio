@@ -1,0 +1,11 @@
+.navbar {
+    position: fixed; /* Fija el navbar en la parte superior de la pantalla */
+    width: 100%;
+    z-index: 1000; /* Asegura que el navbar esté sobre otros elementos */
+  }
+
+
+  .lista{
+    flex-direction: row;
+  }
+
